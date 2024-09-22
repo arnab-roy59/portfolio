@@ -416,7 +416,7 @@ section .title::after{
     text-align: justify;
 }   
 .contact .contact-content .left .icons{
-    margin: 10px 0;
+    margin: 10px 0;   
 }
 .contact .contact-content .row{
     display: flex;
@@ -452,7 +452,7 @@ section .title::after{
     margin-bottom: 15px;
 }
 .contact .right form .textarea{
-    height: 80px;
+    height: 135px;
     width: 100%;
 }
 .contact .right form .name{

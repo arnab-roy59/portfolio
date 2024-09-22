@@ -304,20 +304,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form id="contactForm" action="#">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" id="name" placeholder="Name" maxlength="100" required>
                             </div>
                             <div class="field email">
-                                <input type="text" placeholder="Email" required>
+                                <input type="email" id="email" placeholder="Email" maxlength="100" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" id="subject" placeholder="Subject" maxlength="150" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea id="message" cols="30" rows="20" placeholder="Message.." maxlength="2500" required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
